@@ -1,14 +1,16 @@
 
 body {
 	margin: 0;
+	font-family: 'Quicksand', sans-serif;
 }
+
 
 .logo ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
-	background-color: white;
-	padding: 10px;
+	
+	background-color: rgb(51,51,51);
+	padding: 9px;
 }
 
 .logo li {
@@ -17,24 +19,36 @@ body {
 
 .logo li a {
 	text-decoration: none;
-	padding: 0;
-	color: black;
+	margin-left: 15px;
+	
+	color: white;
+}
+
+.top-sign-right {
+	padding-left: 10px;
+	
 }
 
 .navi-bar ul {
 	list-style-type: none;
-	margin: 0;
+	margin: 0px;
 	padding: 0;
-	background-color: grey;
+	background-color: rgb(51,51,51);
 	padding: 10px;
 }
 
 .navi-bar li {
 	display: inline-block;
+
 }
 
 .navi-bar li a {
 	text-decoration: none;
 	padding: 0;
-	color: black;
+	color: white;
+}
+
+
+.material-icons {
+	color: white;
 }
