@@ -1,0 +1,40 @@
+
+body {
+	margin: 0;
+}
+
+.logo ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	padding: 10px;
+}
+
+.logo li {
+	display: inline-block;
+}
+
+.logo li a {
+	text-decoration: none;
+	padding: 0;
+	color: black;
+}
+
+.navi-bar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: grey;
+	padding: 10px;
+}
+
+.navi-bar li {
+	display: inline-block;
+}
+
+.navi-bar li a {
+	text-decoration: none;
+	padding: 0;
+	color: black;
+}
