@@ -1,0 +1,111 @@
+/* open-sans-condensed-300 - cyrillic_latin */
+@font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'),
+         url('../fonts/open-sans-condensed-v12-cyrillic_latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-condensed-v12-cyrillic_latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* open-sans-condensed-700 - cyrillic_latin */
+  @font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Condensed Bold'), local('OpenSansCondensed-Bold'),
+         url('../fonts/open-sans-condensed-v12-cyrillic_latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-condensed-v12-cyrillic_latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* open-sans-regular - cyrillic_latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+         url('../fonts/open-sans-v15-cyrillic_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v15-cyrillic_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* open-sans-700 - cyrillic_latin */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'),
+         url('../fonts/open-sans-v15-cyrillic_latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v15-cyrillic_latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  body {
+    font-family: 'Open Sans';
+    color: grey;
+  }
+
+
+  .container-banner {
+      width: 50%;
+      margin: auto;
+      }
+
+  .banner article {
+      background-color: black;
+      width: 100%;
+      overflow: hidden;
+      
+  }
+
+  .banner div.article {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+  }
+
+
+  .banner figure {
+    box-sizing: border-box;
+    width: 50%;
+    float: right;
+    margin: 0 0 -5px 0;
+  }
+
+  .banner img {
+      width: 100%;
+  }
+  .banner h3 {
+      color: azure;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 15%;
+
+}
+    .banner h3 div {
+        color: burlywood;
+    }
+
+    .banner p {
+        color: #999999;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    .banner button {
+        background: none;
+        color: white;
+        border: 1px solid white;
+        border-radius: 6px;
+        text-transform: uppercase;
+        height: 30px;
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%;
+    }
+
+    .banner button:hover {
+        color: black;
+        background-color: white;
+
+    }
