@@ -24,9 +24,29 @@ body {
 	color: white;
 }
 
-.top-sign-right {
-	padding-left: 10px;
+.logo a {
+	display: inline-block;
+	text-decoration: none;
 	
+	border: 2px solid white;
+	color: black;
+}
+
+.logo {
+	background-color: white;
+	padding: 6px;
+}
+
+.top-sign-center {
+	float: center; 
+	
+}
+
+
+
+.top-sign-right {
+	float: right;
+	margin-bottom: 2px; 	
 }
 
 .navi-bar ul {
@@ -44,11 +64,23 @@ body {
 
 .navi-bar li a {
 	text-decoration: none;
-	padding: 0;
-	color: white;
+	padding: 3px;
+	color: #aaa;
+	
 }
 
+.top-button1 {
+	margin-left: 10px;
+}
+
+.top-button3 {
+	margin-right: 10px;
+}
+
+.top7-button {
+	margin-right: 5px;
+}
 
 .material-icons {
-	color: white;
+	color: #cec7c7;
 }
