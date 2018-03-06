@@ -5,71 +5,64 @@ body {
 	height: 2000px;
 }
 
-.logo {
+.logo1 {
 	float: left;
 	margin-left: 10px;
 	margin-top: 5px;
 }
 
-.header {
+.header1 {
 	background-color: #fff;
 	padding: 16px;
 }
 
-.header a {
+.header1 a {
 	display: inline-block;
 	text-decoration: none;
 	color: black;
+
 }
 
-.top-sign-left {
+.header1 a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.top-sign-left1 {
 	margin-left: 5px;
 	font-size: 20px;
 	
 }
 
-.top-sign-right {
+.top-sign-right1 {
 	float: right;
 	font-size: 14px;
 
 }
 
-.navi-bar ul {
-	list-style-type: none;
-	margin: 0px;
+.bagcol {
+	margin: 0;
 	padding: 0;
 	background-color: rgb(51,51,51);
-	padding: 10px;
+	box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.2)
 }
 
-.navi-bar li {
-	display: inline-block;
-
-}
-
-.navi-bar li a {
-	text-decoration: none;
-	padding: 3px;
+.butcol ul li a {
 	color: #aaa;
-	
+	text-align: center;	
+
 }
 
-.top-button1 {
-	margin-left: 10px;
+.mhover a:hover {
+	color: white;
+	background-color: black;
 }
 
-.top-button3 {
-	margin-right: 10px;
+.icon-pos {
+	float: right;
 }
 
-.top7-button {
-	margin-right: 5px;
-}
 
 .material-icons {
 	color: #cec7c7;
-}
-
-@media screen and (max-width: 600px){
-	div .navi-bar ul li a {float: none;} 
 }
