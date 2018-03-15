@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Mina', sans-serif;
 	height: 2000px;
 }
 
@@ -43,6 +43,8 @@ body {
 
 }
 
+/* NAV */
+
 .bagcol {
 	margin: 0;
 	padding: 0;
@@ -68,14 +70,6 @@ body {
 
 }
 
-.icon-pos {
-	float: right;
-}
-
-
-.material-icons {
-	color: #cec7c7;
-}
 
 .dropdown {
 	position: relative;
@@ -114,8 +108,11 @@ body {
 	float: left;
 }
 
+/* Slideshow */
+
 .carousel-pos {
 	z-index: 0;
+	position: relative;
 }
 
 .carousel-inner img {
@@ -126,3 +123,96 @@ body {
     margin: 0 auto;
   }
   
+/* CAPTION */
+
+.top-caption {
+	position: absolute;
+	top: 5%;
+	text-align: center;
+	padding: 10px;
+	right: 2%;
+	
+
+}
+
+.style-caption {
+	font-weight: bold;
+	font-size: 
+	background-color: rgba(0, 0, 30, 0.1);
+	border-radius: 5px;
+}
+
+/* Shop section */
+
+* {
+	box-sizing: border-box;
+}
+
+.shop-section-position {
+	display: block;
+
+  }
+
+.shop-section {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 75px 40px;
+	
+	
+}
+
+.column {
+	flex: 50%;
+    max-width: 50%;
+    margin: 0;
+    padding: 1px;
+   
+}
+
+
+.column a img {
+	width: 100%;
+	height: auto;
+	
+}
+
+.item-hover {
+	position: relative;
+    text-align: center;
+}
+
+.name {
+	display: none;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+
+.item-hover:hover .name {
+	display: block;
+	color: Black;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+
+.goods:hover {
+	opacity: 0.6;
+	transition: all .2s
+	
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+
+    }
+}
+
