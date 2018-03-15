@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Mina', sans-serif;
 	height: 2000px;
 }
 
@@ -196,12 +196,15 @@ body {
 .item-hover:hover .name {
 	display: block;
 	color: Black;
+	font-size: 20px;
 	font-weight: bold;
 	
 }
 
 .goods:hover {
 	opacity: 0.6;
+	transition: all .2s
+	
 }
 
 @media screen and (max-width: 600px) {
