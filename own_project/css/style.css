@@ -144,15 +144,20 @@ body {
 
 /* Shop section */
 
+* {
+	box-sizing: border-box;
+}
+
 .shop-section-position {
-	position: relative;	
+	display: block;
+
   }
 
 .shop-section {
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 100px;
+	padding: 75px 40px;
 	
 	
 }
@@ -162,37 +167,42 @@ body {
     max-width: 50%;
     margin: 0;
     padding: 1px;
+   
 }
-
 
 
 .column a img {
 	width: 100%;
 	height: auto;
+	
 }
 
-.name p {
+.item-hover {
+	position: relative;
+    text-align: center;
+}
+
+.name {
 	display: none;
 	position: absolute;
-	color: black;
-	margin-left: 0 auto;
-	margin-right: 0 auto;
-	
-	
-
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
 }
 
-.column:hover .name p {
-	
+
+
+.item-hover:hover .name {
 	display: block;
-	color: white;
+	color: Black;
 	font-weight: bold;
-	margin: 0 auto;
-	background-color: rgba(0,0,0,0.5);
-
-
+	
 }
 
+.goods:hover {
+	opacity: 0.6;
+}
 
 @media screen and (max-width: 600px) {
     .column {
