@@ -43,6 +43,8 @@ body {
 
 }
 
+/* NAV */
+
 .bagcol {
 	margin: 0;
 	padding: 0;
@@ -68,14 +70,6 @@ body {
 
 }
 
-.icon-pos {
-	float: right;
-}
-
-
-.material-icons {
-	color: #cec7c7;
-}
 
 .dropdown {
 	position: relative;
@@ -114,6 +108,8 @@ body {
 	float: left;
 }
 
+/* Slideshow */
+
 .carousel-pos {
 	z-index: 0;
 	position: relative;
@@ -127,7 +123,7 @@ body {
     margin: 0 auto;
   }
   
-
+/* CAPTION */
 
 .top-caption {
 	position: absolute;
@@ -141,21 +137,23 @@ body {
 
 .style-caption {
 	font-weight: bold;
+	font-size: 
 	background-color: rgba(0, 0, 30, 0.1);
 	border-radius: 5px;
 }
 
-.shop-section-position {
-	position: absolute;
+/* Shop section */
 
-}
+.shop-section-position {
+	position: relative;	
+  }
 
 .shop-section {
+	position: relative;
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 65px;
-	padding: 0;
-
+	padding: 100px;
+	
 	
 }
 
@@ -163,11 +161,36 @@ body {
 	flex: 50%;
     max-width: 50%;
     margin: 0;
-    padding: 0 2px;
+    padding: 1px;
 }
 
-.columc img {
+
+
+.column a img {
 	width: 100%;
+	height: auto;
+}
+
+.name p {
+	display: none;
+	position: absolute;
+	color: black;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	
+	
+
+}
+
+.column:hover .name p {
+	
+	display: block;
+	color: white;
+	font-weight: bold;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.5);
+
+
 }
 
 
@@ -176,5 +199,7 @@ body {
         -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
+
     }
 }
+
