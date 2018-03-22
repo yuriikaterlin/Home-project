@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	font-family: 'Roboto', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	
+	height: 4000px;
 }
 
 
@@ -402,3 +402,69 @@ body {
 a:hover .img-opac{
 	opacity: 0;
 }
+
+.email-pos {
+	float: right;
+}
+
+	/* Footer */
+
+.footer-caption {
+	padding: 10px 10px 60px 10px;
+	height: 60px;
+	border-bottom: 1px solid #E0E0E0;
+	margin-bottom: 20px;
+}
+
+.footer-logo {
+	float: left;
+	width: 100%
+	height: auto;
+
+}
+
+.logo-caption {
+	position: absolute;
+	font-size: 20px;
+	vertical-align: middle;
+	left: 75px;
+	top: 19px;
+}
+
+.input-style {
+	border-bottom-left-radius: 20px;
+}
+
+.input-group-round-field {
+	border-radius: 40px;
+	text-transform: uppercase;
+	letter-spacing: 0.0623em;
+	font-size: 11px;
+	font-weight: 400;
+	border: 1px solid #E0E0E0;
+	padding: 6px 30px 6px 16px;
+	background-color: #F6F6F6;
+	background-image: url(../imgs/if_basics-06_296832.png);
+	background-repeat: no-repeat;
+    background-position: 175px 7px;
+
+
+}
+
+.full-width {
+	width: 100%
+}
+
+.social-links ul li {
+	padding: 5px;
+	display: inline-block;	
+}
+
+.social-links a {
+	color: #9b9b9b;
+}
+
+.social-links a:hover {
+	color: black;
+}
+
