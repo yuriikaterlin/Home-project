@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	font-family: 'Roboto', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	height: 4000px;
+	
 }
 
 
@@ -444,15 +444,20 @@ a:hover .img-opac{
 	border: 1px solid #E0E0E0;
 	padding: 6px 30px 6px 16px;
 	background-color: #F6F6F6;
-	background-image: url(../imgs/if_basics-06_296832.png);
+	background-image: url(../imgs/arrow2.png);
 	background-repeat: no-repeat;
-    background-position: 175px 7px;
+    background-position: right 7px;
 
 
 }
 
 .full-width {
 	width: 100%
+}
+
+.social-links ul {
+	padding: 0;
+	text-align: center;
 }
 
 .social-links ul li {
@@ -468,3 +473,46 @@ a:hover .img-opac{
 	color: black;
 }
 
+.site-footer-navlist {
+	padding: 15px;
+	line-height: 2.5;
+
+
+}
+
+.site-footer-navlist ul {
+	padding: 0; 
+}
+	
+.site-footer-navlist li {
+	list-style-type: none;
+	font-size: 14px;
+
+}
+
+.site-footer-navlist ul li a {
+	text-decoration: none;
+	color: #adadad;
+}
+
+.site-footer-navlist ul li:hover a {
+	color: #737373;
+}
+
+@media screen and (max-width: 575.98px) {
+	.text-xs-center {
+    text-align: center;
+  } 
+}
+
+.botom-footer {
+	border-top: 1px solid #E0E0E0;
+}
+
+.botom-text {
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+	font-size: 10px;
+	color: #adadad;
+}
